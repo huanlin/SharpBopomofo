@@ -12,6 +12,15 @@
 
 在我建立此專案時，並未在 GitHub 上面找到類似的 .NET 函式庫。於是我決定造這個輪子。我打算使用新酷音的資料檔來反查中文的注音字根。
 
+## 相依套件
+
+ * [libchewing](https://github.com/chewing/libchewing)
+ * [Serilog](https://serilog.net/)
+ * [Jil](https://github.com/kevin-montrose/Jil)
+ * [Json.NET](https://www.newtonsoft.com/json)
+ * [protobuf-net](https://github.com/mgravell/protobuf-net)
+ * [NUnit](http://nunit.org/) 
+
 ## 授權
 
 此專案是採用 LGPL 3.0 授權。

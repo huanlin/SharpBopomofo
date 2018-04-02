@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpBopomofo", "SharpBopomofo\SharpBopomofo.csproj", "{111BB624-1480-4847-9AAD-0C25506D8F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpBopomofo", "SharpBopomofo\SharpBopomofo.csproj", "{111BB624-1480-4847-9AAD-0C25506D8F6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libchewingdata", "libchewingdata", "{F5426B22-0D52-4E30-AEE5-8538CA77AB8A}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libchewingdata", "libchewin
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpBopomofoTests", "SharpBopomofoTests\SharpBopomofoTests.csproj", "{C23A2D42-1592-43F8-84B2-D753D88A9422}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{8C9F62FA-B37C-4077-BEBE-A7598DF4C11B}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
