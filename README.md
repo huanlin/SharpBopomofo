@@ -8,18 +8,17 @@
 
 ## 動機
 
-我的另一個開源專案原本是透過 [IFELanguage](https://msdn.microsoft.com/en-us/library/windows/desktop/hh851778(v=vs.85).aspx) 來取得一串中文字的注音字根。然而，這種方法到了 Windows 10 似乎已經無法使用。
+以往，我是透過 [IFELanguage](https://msdn.microsoft.com/en-us/library/windows/desktop/hh851778(v=vs.85).aspx) 來取得一串中文字的注音字根。然而，這種方法到了 Windows 10 似乎已經無法使用。
 
-根據我的測試，在有安裝微軟注音的 Windows 10 環境上，已經無法使用 MSIME.Taiwan 了，而 MSIME.China 依然可用。然而 MSIME.China 只能取得拼音。
+根據我的測試，即使 Windows 10 有安裝微軟注音輸入法，也無法使用 MSIME.Taiwan 來反查注音字根。奇怪的是，MSIME.China 依然可用，但 MSIME.China 只能取得拼音。
 
-在我建立此專案時，並未在 GitHub 上面找到類似的 .NET 函式庫。於是我決定造這個輪子。我打算使用新酷音的資料檔來反查中文的注音字根。
+我在 GitHub 上面找不到我需要的工具，於是我決定造個輪子。
 
 ## 相依套件
 
  * [libchewing](https://github.com/chewing/libchewing)
  * [Serilog](https://serilog.net/)
  * [Jil](https://github.com/kevin-montrose/Jil)
- * [Json.NET](https://www.newtonsoft.com/json)
  * [protobuf-net](https://github.com/mgravell/protobuf-net)
  * [NUnit](http://nunit.org/) 
 
