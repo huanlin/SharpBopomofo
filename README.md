@@ -1,5 +1,7 @@
 # SharpBopomofo
 
+![](https://img.shields.io/badge/.NET%20Standard-2.0-brightgreen.svg)
+
 ## 目的
 
 提供一些用來把中文字轉成注音符號的 API。
